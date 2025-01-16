@@ -16,7 +16,7 @@ if(daysLength !== 0) {
     }
     return countCalories / daysLength;
   }
-  else return `Дані не введено , ${daysLength} - введених даних`;
+  else return daysLength; // 0
  }
 
 console.log(
